@@ -1,4 +1,10 @@
 # tricep
+[![Build Status](https://travis-ci.org/Phenelo/tricep.svg?branch=master)](https://travis-ci.org/Phenelo/tricep)
+[![Coverage Status](https://coveralls.io/repos/github/Phenelo/tricep/badge.svg?branch=master)](https://coveralls.io/github/Phenelo/tricep)
+[![Code Climate](https://codeclimate.com/github/Phenelo/tricep/badges/gpa.svg)](https://codeclimate.com/github/Phenelo/tricep)
+[![NPM Version](https://badge.fury.io/js/tricep.svg)](https://www.npmjs.com/tricep)
+[![Known Vulnerabilities](https://snyk.io/test/github/phenelo/tricep/badge.svg)](https://snyk.io/test/github/phenelo/tricep)
+[![NSP Status](https://nodesecurity.io/orgs/nelo/projects/5242c613-cec6-4de3-a60b-44571fdaeb1d/badge)](https://nodesecurity.io/orgs/nelo/projects/5242c613-cec6-4de3-a60b-44571fdaeb1d)
 
 A raw hapijs plugin for setting up TCP support using native node TCP (net).
 
