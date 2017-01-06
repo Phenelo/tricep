@@ -46,7 +46,7 @@ const client = new Tricep.Client({
 
 client.connect(() {
 
-    // Client is now connected
+    // Client is now connected.
 
     client.onData = (data) {
 
