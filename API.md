@@ -17,7 +17,7 @@ Register **tricep** as a hapijs plugin with the following options:
     - `port` - the port to listen to. Defaults to `9876`.
     - `host` - the host to listen to. Defaults to `localhost`.
     - `exclusive` - see the description [here](https://nodejs.org/api/net.html#net_server_listen_options_callback).
-- `create` - optional server creation options where values can be:
+- `create` - optional server creation settings where values can be:
     - `allowHalfOpen` - see the description [here](https://nodejs.org/api/net.html#net_net_createserver_options_connectionlistener).
     - `pauseOnConnect` - see the description [here](https://nodejs.org/api/net.html#net_net_createserver_options_connectionlistener).
 - `onConnect(client)` - listener that will get invoked everytime a client connects where:
@@ -60,7 +60,8 @@ Override these to modify the event listeners of the client.
 
 - `onConnect()` - listener that will get invoked when client successfully connects to the server.
 - `onDisconnect()` - listener that will get invoked when client disconnects from the server.
-- `onData()` - listener that will get invoked when client receives data from the server.
+- `onData(data)` - listener that will get invoked when client receives data from the server where:
+    - `data` - the data from the server.
 - `onError(err)` - listener that will get invoked when the client emits an error event where:
     - `err` - the error the socket will throw.
 
