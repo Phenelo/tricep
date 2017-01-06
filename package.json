@@ -1,0 +1,28 @@
+{
+  "name": "tricep",
+  "version": "0.1.0",
+  "author": "Denmark Dionisio",
+  "description": "Denmark Dionisio <iamdionisiodenmark@gmail.com>",
+  "keywords": [
+    "hapi",
+    "tcp",
+    "plugin"
+  ],
+  "license": "MIT",
+  "repository": "git://github.com/Phenelo/tricep",
+  "bugs": "https://github.com/Phenelo/tricep/issues",
+  "main": "lib/index.js",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "test": "lab -c -v -L -a code"
+  },
+  "devDependencies": {
+    "hapi": "15.2.x",
+    "code": "4.0.x",
+    "lab": "11.1.x",
+    "proxyquire": "1.7.x",
+    "coveralls": "2.11.x"
+  }
+}
