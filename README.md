@@ -6,7 +6,7 @@
 [![Known Vulnerabilities](https://snyk.io/test/github/phenelo/tricep/badge.svg)](https://snyk.io/test/github/phenelo/tricep)
 [![NSP Status](https://nodesecurity.io/orgs/nelo/projects/5242c613-cec6-4de3-a60b-44571fdaeb1d/badge)](https://nodesecurity.io/orgs/nelo/projects/5242c613-cec6-4de3-a60b-44571fdaeb1d)
 
-A raw hapijs plugin for setting up TCP support using native node TCP (net).
+A hapijs plugin for setting up TCP support using native node TCP (net).
 
 ## Server
 ```js
