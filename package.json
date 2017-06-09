@@ -19,10 +19,10 @@
     "test": "lab -c -v -L -a code"
   },
   "devDependencies": {
-    "hapi": "15.2.x",
-    "code": "4.0.x",
-    "lab": "11.1.x",
-    "proxyquire": "1.7.x",
-    "coveralls": "2.11.x"
+    "hapi": "16.4.x",
+    "code": "4.1.x",
+    "lab": "13.1.x",
+    "proxyquire": "1.8.x",
+    "coveralls": "2.13.x"
   }
 }
